@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = "rajeshwar2473/java-cicd-app"
-        DOCKER_TAG = "latest"
+        DOCKER_TAG =  "${BUILD_NUMBER}"
         KUBECONFIG = "/var/lib/jenkins/.kube/config"
     }
 

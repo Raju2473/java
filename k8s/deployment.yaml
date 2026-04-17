@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: java-app
-          image: rajeshwar2473/java-cicd-app:latest
+          image: rajeshwar2473/java-cicd-app:${BUILD_TAG}
           ports:
             - containerPort: 8080
