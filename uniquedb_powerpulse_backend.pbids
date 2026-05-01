@@ -1,0 +1,1 @@
+{"version":"1.0","connections":[{"details":{"protocol":"mysql","address":{"server":"uniquedb.mysql.database.azure.com","database":"powerpulse_backend"}},"options":{"ReturnSingleDatabase":true}}]}
